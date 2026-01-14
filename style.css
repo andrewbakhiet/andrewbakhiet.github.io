@@ -1,0 +1,175 @@
+body {
+    background-color: beige;
+}
+
+#pageContent ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    max-width: 800px;
+}
+
+
+#pageContent li {
+    display: flow-root;
+    margin-bottom: 12px;
+    line-height: 1.5;
+   
+}
+
+#pageContent ul img {
+
+    float: right;
+    width: 150px;
+    
+    height: auto;
+    margin: 0 0 8px 12px;
+   
+    border-radius: 8px;
+    object-fit: cover;
+     border: 2px dashed coral;
+    
+    border-collapse: collapse;
+   
+
+}
+
+
+#wrapper {
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+
+#header {
+    width: 99.8%;
+    height: 50px;
+    background: #FF8080;
+    border: solid #CCCCCC thin;
+    border-bottom: solid #f9e9a1 10px;
+    border-top: solid #2297a6 10px;
+    padding-top: 20px;
+    align-content: center;
+    text-align: center;
+    
+}
+
+a.button {
+    padding: 6px;
+    border: 1px outset buttonborder;
+    border-radius: 7px;
+    color: black;
+    background-color: azure;
+    text-decoration: none;
+    margin: 20px;
+}
+
+content {
+    float: left;
+    width: 102%;
+}
+
+#pageContent {
+    float: left;
+    color: #333333;
+    line-height: 1.6;
+    width: 95%;
+}
+
+#content h2 {
+    color: #28A684;
+    color: #6b89bf;
+    padding-left: 5px;
+}
+
+#content h3 {
+    color: #28A684;
+    margin-left: 0px;
+}
+
+#pageContent {
+    padding-left: 15px
+}
+
+#pageContent img {
+
+    width: 70%;
+}
+
+#pageContent li {
+    padding-bottom: 10px;
+}
+
+#leftEdge {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #2297a6;
+    width: 10px;
+}
+
+#rightEdge {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #2297a6;
+    width: 10px;
+}
+
+
+#footer {
+    width: 99.8%;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    background: #f9e9a1;
+    border: solid #CCCCCC thin;
+    border-top: none;
+    clear: both;
+}
+
+#footer p {
+    padding-left: 10px;
+}
+
+#pageContent p {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+#menu img {
+    margin-left: 18px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+/* --- Hobbies layout helpers --- */
+.hobby {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+#pageContent .hobby img {
+  width: 165px !important;
+  max-width: none !important;
+  height: auto !important;
+  border: solid #CCCCCC thin;
+  border-radius: 6px;
+}
+
+.hobby .text {
+  flex: 1;
+}
+
+.hobby ul {
+  margin-top: 6px;
+}
